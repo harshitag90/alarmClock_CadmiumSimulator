@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Models>
+	<Model name="ALARMCLOCK" type="coupled" description="a coupled system for a simple alarm clock system.">
+		<Inputs>
+			<Port name="e_alarm_set" type="int" description="alarm is set or not with value 0 or 1"/>		
+			<Port name="e_hours" type="int" description="integer value between 0 and 23"/>		
+			<Port name="e_minutes" type="int" description="integer value between 0 and 59"/>		
+			<Port name="e_time_set" type="int" description="time is set or not with value 0 or 1"/>		
+			<Port name="e_alarm_on" type="int" description="alarm is set or not with value 0 or 1"/>		
+			<Port name="e_snooze" type="int" description="snooze the buzzer or not with value 0 or 1"/>		
+		</Inputs>
+		<Outputs>
+			<Port name="displayed_time" type="int" description="the output showing the current time"/>
+			<Port name="e_buzzer_on" type="int" description="the output showing if the buzzer is or not"/>
+		</Outputs>
+		<Files>	
+			<File name="main.cpp" type="CPP" location="/top_model"/>
+			<File name="alarmclock_input.txt" type="TXT" location="/input_data"/>
+			<File name="ALARM_CLOCK_output_messages.txt" type="TXT" location="/simulation_results"/>
+			<File name="ALARM_CLOCK_output_state.txt" type="TXT" location="/simulation_results"/>
+		</Files>
+	</Model>
+	<Model name="TIMEREGISTER" type="coupled" description="a coupled model registering the Time by taking minutes and hours as inputs to display time of day">
+		<Inputs>
+			<Port name="time_set" type="int" description="time is set or not with value 0 or 1"/>			
+			<Port name="hours" type="int" description="integer value between 0 and 23"/>			
+			<Port name="minutes" type="int" description="integer value between 0 and 59"/>			
+		</Inputs>
+		<Outputs>
+			<Port name="Time_of_day" type="int" description="Output that displays the time of the day"/>	
+		</Outputs>
+	</Model>
+	<Model name="ALARMCONTROLLER" type="coupled" description="a coupled model that controls the alarm by comparing the time and setting the buzzer based on whether alarm time is registered or not">
+		<Inputs>
+			<Port name="alarm_set" type="int" description="alarm is set or not with value 0 or 1"/>			
+			<Port name="hours" type="int" description="integer value between 0 and 23"/>			
+			<Port name="minutes" type="int" description="integer value between 0 and 59"/>			
+			<Port name="time_of_day" type="int" description="time of day"/>			
+			<Port name="alarm_on" type="int" description="alarm_on is set or not with value 0 or 1"/>			
+			<Port name="snooze" type="int" description="snooze is set or not with value 0 or 1"/>			
+		</Inputs>
+		<Outputs>
+			<Port name="Alarm_time" type="int" description="Output that displays alarm time"/>	
+			<Port name="buzzer" type="int" description="Output whether the buzzer is pressed or not"/>
+		</Outputs>
+	</Model>
+	<Model name="HoursRegister" type="atomic" description="Gives the hours value">
+		<Inputs>
+		<Port name="time_set" type="int" description="alarm is set or not with value 0 or 1"/>
+		<Port name="hours" type="int" description="integer value between 0 and 59"/>
+		<Port name="wrap_around" type="int" description="increments the value of hour to 1 when the number of minutes wrap around from 59 to 60"/>
+		</Inputs>
+		<Outputs>
+		<Port name="time_hours" type="int" description="Displays the time in hours"/>		
+		</Outputs>
+		<Files>
+			<File name="hoursRegister.cpp" type="CPP" location="/test"/>		
+			<File name="hrRegister.hpp" type="HPP" location="/atomics"/>		
+			<File name="hoursRegister_input_test_hour.txt" type="TXT" location="/input_data"/>			
+			<File name="hoursRegister_input_test_time_set.txt" type="TXT" location="/input_data"/>			
+			<File name="hoursRegister_input_test_wrap_around.txt" type="TXT" location="/input_data"/>			
+			<File name="hourRegister_test_output_messages.txt" type="TXT" location="/simulation_results"/>
+			<File name="hourRegister_test_output_state.txt" type="TXT" location="/simulation_results"/>
+		</Files>
+	</Model>
+	<Model name="MinutesRegister" type="atomic" description="Gives the minutes value">
+		<Inputs>
+		<Port name="time_set" type="int" description="alarm is set or not with value 0 or 1"/>
+		<Port name="minutes" type="int" description="integer value between 0 and 23"/>
+		</Inputs>
+		<Outputs>
+		<Port name="time_minutes" type="int" description="Displays the time in minutes"/>	
+        <Port name="wrap_around" type="int" description="indicates that the value of the register wrapped around.  That is, it went from 59 to 0."/>
+				
+		</Outputs>
+		<Files>
+			<File name="minRegister.cpp" type="CPP" location="/test"/>		
+			<File name="minRegister.hpp" type="HPP" location="/atomics"/>		
+			<File name="minRegister_input_test_time_set.txt" type="TXT" location="/input_data"/>			
+			<File name="minRegister_input_test_minutes.txt" type="TXT" location="/input_data"/>			
+			<File name="minRegister_test_output_messages.txt" type="TXT" location="/simulation_results"/>
+			<File name="minRegister_test_output_state.txt" type="TXT" location="/simulation_results"/>
+		</Files>
+	</Model>
+	<Model name="TimeAdder" type="atomic" description="Display the time of day with hours and minutes as input">
+		<Inputs>
+		<Port name="time_hours" type="int" description="time in hours"/>
+		<Port name="time_minutes" type="int" description="time in minutes"/>
+		</Inputs>
+		<Outputs>
+		<Port name="time_of_day" type="int" description="Displays the time in minutes as an integer value"/>		
+		</Outputs>
+		<Files>
+			<File name="timeAdder.cpp" type="CPP" location="/test"/>		
+			<File name="timeAdder.hpp" type="HPP" location="/atomics"/>		
+			<File name="timeAdder_input_test_time_minutes.txt" type="TXT" location="/input_data"/>			
+			<File name="timeAdder_input_test_time_hours.txt" type="TXT" location="/input_data"/>			
+			<File name="timeAdder_test_output_messages.txt" type="TXT" location="/simulation_results"/>
+			<File name="timeAdder_test_output_state.txt" type="TXT" location="/simulation_results"/>
+		</Files>
+	</Model>
+	<Model name="AlarmRegister" type="atomic" description="Checks whether alarm is registered or not">
+		<Inputs>
+		<Port name="alarm_set" type="int" description="alarm is set or not with value 0 or 1"/>
+		<Port name="hour" type="int" description="integer value between 0 and 23"/>
+		<Port name="minutes" type="int" description="integer value between 0 and 59"/>
+		</Inputs>
+		<Outputs>
+		<Port name="alarm_time" type="int" description="Displays the alarm time"/>		
+		</Outputs>
+		<Files>
+			<File name="alarmRegister.cpp" type="CPP" location="/test"/>		
+			<File name="alarmRegister.hpp" type="HPP" location="/atomics"/>		
+			<File name="alarm_input_test_alarm_set..txt" type="TXT" location="/input_data"/>			
+			<File name="alarm_input_test_hour.txt" type="TXT" location="/input_data"/>			
+			<File name="alarm_input_test_minutes.txt" type="TXT" location="/input_data"/>			
+			<File name="alarm_test_output_messages.txt" type="TXT" location="/simulation_results"/>
+			<File name="alarm_test_output_state.txt" type="TXT" location="/simulation_results"/>
+		</Files>
+	</Model>
+	<Model name="BuzzerDriver" type="atomic" description="Hits the buzzer based on alarm set">
+		<Inputs>
+		<Port name="time_set" type="int" description="time is set or not with value 0 or 1"/>
+		<Port name="alarm_set" type="int" description="alarm is set or not with value 0 or 1"/>
+		<Port name="time_match" type="int" description="stores the value to alarm time"/>
+		<Port name="alarm_on" type="int" description="alarm on is set or not with value 0 or 1"/>
+		<Port name="snooze" type="int" description="snooze the buzzer with value 0 or 1"/>
+		</Inputs>
+		<Outputs>
+		<Port name="buzzer_on" type="int" description="Depending on the event received, the method sets the state variables and schedules an internal event to either turn on the buzzer, turn off the buzzer, snooze the buzzer, or wait for an external event"/>		
+		</Outputs>
+		<Files>
+			<File name="buzzerDriver.cpp" type="CPP" location="/test"/>		
+			<File name="buzzerDriver.hpp" type="HPP" location="/atomics"/>		
+			<File name="buzzerDriver_input_test_time_set.txt" type="TXT" location="/input_data"/>			
+			<File name="buzzerDriver_input_test_alarm_set.txt" type="TXT" location="/input_data"/>			
+			<File name="buzzerDriver_input_test_time_match.txt" type="TXT" location="/input_data"/>			
+			<File name="buzzerDriver_input_test_alarm_on.txt" type="TXT" location="/input_data"/>			
+			<File name="buzzerDriver_input_test_snooze.txt" type="TXT" location="/input_data"/>			
+			<File name="buzzerDriver_output_messages.txt" type="TXT" location="/simulation_results"/>
+			<File name="buzzerDriver_output_state.txt" type="TXT" location="/simulation_results"/>
+		</Files>
+	</Model>
+	<Model name="DisplayDriver" type="atomic" description="It displays the time of the day">
+		<Inputs>
+		<Port name="alarm_time" type="int" description="alarm time as an integer value"/>
+		<Port name="time_of_day" type="int" description="time of day as an integer value"/>
+		<Port name="alarm_set" type="int" description="alarm is set or not with value 0 or 1"/>
+		</Inputs>
+		<Outputs>
+		<Port name="displayed_time" type="int" description="Displays the time of day"/>		
+		</Outputs>
+		<Files>
+			<File name="displayDriver.cpp" type="CPP" location="/test"/>		
+			<File name="displayDriver.hpp" type="HPP" location="/atomics"/>		
+			<File name="displayDriver_input_test_alarm_set.txt" type="TXT" location="/input_data"/>			
+			<File name="displayDriver_input_test_alarm_time.txt" type="TXT" location="/input_data"/>			
+			<File name="displayDriver_input_test_time_of_day.txt" type="TXT" location="/input_data"/>			
+			<File name="displayDriver_test_output_messages.txt" type="TXT" location="/simulation_results"/>
+			<File name="displayDriver_test_output_state.txt" type="TXT" location="/simulation_results"/>
+		</Files>
+	</Model>
+	<Model name="TimeComparator" type="atomic" description="Compares the time of day with alarm time">
+		<Inputs>
+		<Port name="alarm_time" type="int" description="alarm time as an integer value"/>
+		<Port name="time_of_day" type="int" description="time of day as an integer value"/>
+		</Inputs>
+		<Outputs>
+		<Port name="time_match" type="int" description="returns the alarm time by matching the time of day"/>		
+		</Outputs>
+		<Files>
+			<File name="timeComparator.cpp" type="CPP" location="/test"/>		
+			<File name="timeComparator.hpp" type="HPP" location="/atomics"/>		
+			<File name="timeComparator_input_test_alarm_time.txt" type="TXT" location="/input_data"/>			
+			<File name="timeComparator_input_test_alarm_time.txt" type="TXT" location="/input_data"/>			
+			<File name="timeComparator_test_output_messages.txt" type="TXT" location="/simulation_results"/>
+			<File name="timeComparator_test_output_state.txt" type="TXT" location="/simulation_results"/>
+		</Files>
+	</Model>
+</Models>

@@ -1,0 +1,84 @@
+00:00:00:000
+State for model input_reader_time_set is next time: 00:00:00:000
+State for model input_reader_alarm_set is next time: 00:00:00:000
+State for model input_reader_time_match is next time: 00:00:00:000
+State for model input_reader_alarm_on is next time: 00:00:00:000
+State for model input_reader_snooze is next time: 00:00:00:000
+State for model buzzerDriver1 is Alarm Time: 0
+00:00:00:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 0
+00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 0
+00:00:20:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 0
+00:00:30:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 9
+00:00:40:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 9
+00:00:50:000
+State for model input_reader_time_set is next time: 00:01:00:000
+State for model input_reader_alarm_set is next time: 00:01:00:000
+State for model input_reader_time_match is next time: 00:01:00:000
+State for model input_reader_alarm_on is next time: 00:01:00:000
+State for model input_reader_snooze is next time: 00:01:00:000
+State for model buzzerDriver1 is Alarm Time: 9
+00:01:50:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 9
+00:02:00:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 9
+00:02:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 9
+00:02:20:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_time_match is next time: 00:00:10:000
+State for model input_reader_alarm_on is next time: 00:00:10:000
+State for model input_reader_snooze is next time: 00:00:10:000
+State for model buzzerDriver1 is Alarm Time: 3
+00:02:30:000
+State for model input_reader_time_set is next time: inf
+State for model input_reader_alarm_set is next time: inf
+State for model input_reader_time_match is next time: inf
+State for model input_reader_alarm_on is next time: inf
+State for model input_reader_snooze is next time: inf
+State for model buzzerDriver1 is Alarm Time: 3

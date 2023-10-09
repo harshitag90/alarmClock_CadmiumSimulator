@@ -1,0 +1,48 @@
+00:00:00:000
+State for model input_reader_time_set is next time: 00:00:00:000
+State for model input_reader_minutes is next time: 00:00:00:000
+State for model minRegister1 is minute: 0 wrap: 0 active: 0
+00:00:00:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 0 wrap: 0 active: 0
+00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 16 wrap: 0 active: 1
+00:00:20:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 14 wrap: 0 active: 1
+00:00:30:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 15 wrap: 0 active: 1
+00:00:40:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 3 wrap: 0 active: 1
+00:00:50:000
+State for model input_reader_time_set is next time: 00:01:00:000
+State for model input_reader_minutes is next time: 00:01:00:000
+State for model minRegister1 is minute: 8 wrap: 0 active: 1
+00:01:50:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 10 wrap: 0 active: 1
+00:02:00:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 11 wrap: 0 active: 1
+00:02:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 13 wrap: 0 active: 1
+00:02:20:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_minutes is next time: 00:00:10:000
+State for model minRegister1 is minute: 31 wrap: 0 active: 1
+00:02:30:000
+State for model input_reader_time_set is next time: inf
+State for model input_reader_minutes is next time: inf
+State for model minRegister1 is minute: 9 wrap: 0 active: 1

@@ -1,0 +1,60 @@
+00:00:00:000
+State for model input_reader_hours is next time: 00:00:00:000
+State for model input_reader_time_set is next time: 00:00:00:000
+State for model input_reader_wrap_around is next time: 00:00:00:000
+State for model hourRegister1 is Hours Registered: 0
+00:00:00:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 0
+00:00:10:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 11
+00:00:20:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 3
+00:00:30:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 16
+00:00:40:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 21
+00:00:50:000
+State for model input_reader_hours is next time: 00:01:00:000
+State for model input_reader_time_set is next time: 00:01:00:000
+State for model input_reader_wrap_around is next time: 00:01:00:000
+State for model hourRegister1 is Hours Registered: 17
+00:01:50:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 8
+00:02:00:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 20
+00:02:10:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 22
+00:02:20:000
+State for model input_reader_hours is next time: 00:00:10:000
+State for model input_reader_time_set is next time: 00:00:10:000
+State for model input_reader_wrap_around is next time: 00:00:10:000
+State for model hourRegister1 is Hours Registered: 7
+00:02:30:000
+State for model input_reader_hours is next time: inf
+State for model input_reader_time_set is next time: inf
+State for model input_reader_wrap_around is next time: inf
+State for model hourRegister1 is Hours Registered: 9

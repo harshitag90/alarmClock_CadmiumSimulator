@@ -1,0 +1,60 @@
+00:00:00:000
+State for model input_reader_alarm_time is next time: 00:00:00:000
+State for model input_reader_time_of_day is next time: 00:00:00:000
+State for model timeComparator1 is Alarm Time: 0Time of Day: 0Output value1: 0Phase: 
+00:00:00:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 0Time of Day: 0Output value1: 0Phase: passive
+00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 1634Time of Day: 1634Output value1: 1634Phase: active
+00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 1634Time of Day: 1634Output value1: 1634Phase: passive
+00:00:20:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 1013Time of Day: 1013Output value1: 1013Phase: active
+00:00:20:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 1013Time of Day: 1013Output value1: 1013Phase: passive
+00:00:30:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 934Time of Day: 920Output value1: 0Phase: passive
+00:00:40:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 123Time of Day: 1240Output value1: 0Phase: passive
+00:00:50:000
+State for model input_reader_alarm_time is next time: 00:01:00:000
+State for model input_reader_time_of_day is next time: 00:01:00:000
+State for model timeComparator1 is Alarm Time: 645Time of Day: 630Output value1: 0Phase: passive
+00:01:50:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 856Time of Day: 850Output value1: 0Phase: passive
+00:02:00:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 72Time of Day: 730Output value1: 0Phase: passive
+00:02:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 163Time of Day: 1623Output value1: 0Phase: passive
+00:02:20:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model timeComparator1 is Alarm Time: 33Time of Day: 330Output value1: 0Phase: passive
+00:02:30:000
+State for model input_reader_alarm_time is next time: inf
+State for model input_reader_time_of_day is next time: inf
+State for model timeComparator1 is Alarm Time: 214Time of Day: 214Output value1: 214Phase: active
+00:02:30:000
+State for model input_reader_alarm_time is next time: inf
+State for model input_reader_time_of_day is next time: inf
+State for model timeComparator1 is Alarm Time: 214Time of Day: 214Output value1: 214Phase: passive

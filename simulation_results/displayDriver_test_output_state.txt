@@ -1,0 +1,60 @@
+00:00:00:000
+State for model input_reader_alarm_set is next time: 00:00:00:000
+State for model input_reader_alarm_time is next time: 00:00:00:000
+State for model input_reader_time_of_day is next time: 00:00:00:000
+State for model displayDriver1 is current state: active alarmTime: 0 timeOfDay: 0
+00:00:00:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: active alarmTime: 0 timeOfDay: 0
+00:00:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: passive alarmTime: 20 timeOfDay: 20
+00:00:20:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: passive alarmTime: 5 timeOfDay: 5
+00:00:30:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: active alarmTime: 9 timeOfDay: 9
+00:00:40:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: passive alarmTime: 12 timeOfDay: 12
+00:00:50:000
+State for model input_reader_alarm_set is next time: 00:01:00:000
+State for model input_reader_alarm_time is next time: 00:01:00:000
+State for model input_reader_time_of_day is next time: 00:01:00:000
+State for model displayDriver1 is current state: passive alarmTime: 6 timeOfDay: 6
+00:01:50:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: active alarmTime: 8 timeOfDay: 8
+00:02:00:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: active alarmTime: 7 timeOfDay: 7
+00:02:10:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: passive alarmTime: 16 timeOfDay: 16
+00:02:20:000
+State for model input_reader_alarm_set is next time: 00:00:10:000
+State for model input_reader_alarm_time is next time: 00:00:10:000
+State for model input_reader_time_of_day is next time: 00:00:10:000
+State for model displayDriver1 is current state: active alarmTime: 3 timeOfDay: 3
+00:02:30:000
+State for model input_reader_alarm_set is next time: inf
+State for model input_reader_alarm_time is next time: inf
+State for model input_reader_time_of_day is next time: inf
+State for model displayDriver1 is current state: active alarmTime: 21 timeOfDay: 21

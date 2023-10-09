@@ -1,0 +1,88 @@
+00:00:00:000
+State for model input_reader_time_hours is next time: 00:00:00:000
+State for model input_reader_time_minutes is next time: 00:00:00:000
+State for model timeAdder1 is outTime: 0Phase: 
+00:00:00:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:00:10:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 1520Phase: active
+00:00:10:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:00:20:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 1305Phase: active
+00:00:20:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:00:30:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 1409Phase: active
+00:00:30:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:00:40:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 212Phase: active
+00:00:40:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:00:50:000
+State for model input_reader_time_hours is next time: 00:01:00:000
+State for model input_reader_time_minutes is next time: 00:01:00:000
+State for model timeAdder1 is outTime: 706Phase: active
+00:00:50:000
+State for model input_reader_time_hours is next time: 00:01:00:000
+State for model input_reader_time_minutes is next time: 00:01:00:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:01:50:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 908Phase: active
+00:01:50:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:02:00:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 1007Phase: active
+00:02:00:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:02:10:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 1216Phase: active
+00:02:10:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:02:20:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 3003Phase: active
+00:02:20:000
+State for model input_reader_time_hours is next time: 00:00:10:000
+State for model input_reader_time_minutes is next time: 00:00:10:000
+State for model timeAdder1 is outTime: 0Phase: passive
+00:02:30:000
+State for model input_reader_time_hours is next time: inf
+State for model input_reader_time_minutes is next time: inf
+State for model timeAdder1 is outTime: 821Phase: active
+00:02:30:000
+State for model input_reader_time_hours is next time: inf
+State for model input_reader_time_minutes is next time: inf
+State for model timeAdder1 is outTime: 0Phase: passive

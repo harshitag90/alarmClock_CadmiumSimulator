@@ -1,0 +1,27 @@
+00:00:00:000
+State for model input_reader is next time: 00:00:00:000
+State for model minRegister1 is minute: 12336 wrap: 0 active: 0
+State for model hourRegister1 is Hours Registered: 10
+State for model timeAdder1 is outTime: 0Phase: 
+State for model alarmRegister1 is Alarm Time: 0
+State for model timeComparator1 is Alarm Time: 0Time of Day: 0Output value1: 0Phase: 
+State for model buzzerDriver1 is Alarm Time: 0
+State for model displayDriver1 is current state: active alarmTime: 0 timeOfDay: 0
+00:00:00:000
+State for model input_reader is next time: inf
+State for model minRegister1 is minute: 12336 wrap: 0 active: 0
+State for model hourRegister1 is Hours Registered: 10
+State for model timeAdder1 is outTime: 0Phase: passive
+State for model alarmRegister1 is Alarm Time: 0
+State for model timeComparator1 is Alarm Time: 0Time of Day: 0Output value1: 0Phase: active
+State for model buzzerDriver1 is Alarm Time: 0
+State for model displayDriver1 is current state: active alarmTime: 0 timeOfDay: 0
+00:00:00:000
+State for model input_reader is next time: inf
+State for model minRegister1 is minute: 12336 wrap: 0 active: 0
+State for model hourRegister1 is Hours Registered: 10
+State for model timeAdder1 is outTime: 0Phase: passive
+State for model alarmRegister1 is Alarm Time: 0
+State for model timeComparator1 is Alarm Time: 0Time of Day: 0Output value1: 0Phase: passive
+State for model buzzerDriver1 is Alarm Time: 0
+State for model displayDriver1 is current state: active alarmTime: 0 timeOfDay: 0
